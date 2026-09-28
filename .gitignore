@@ -1,0 +1,38 @@
+# Build directories
+build/
+bin/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled binaries and libraries
+*.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exp
+
+# Keep vendored GLFW binaries required for MinGW build
+!external/glfw/lib-mingw-w64/libglfw3.a
+!external/glfw/lib-mingw-w64/glfw3.dll
+
+# Python cache & temp files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and Editor files
+.vscode/*
+!.vscode/launch.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
