@@ -1,0 +1,28 @@
+# Build instructions:
+cmake -S . -B build -G "MinGW Makefiles"
+cmake --build build
+
+# Run application:
+.\build\OpenGL3D.exe
+
+# Controls:
+# - W / A / S / D : Fly / Walk
+# - Left Shift : Sprint
+# - Space / L-Ctrl : Fly Up / Down
+# - Mouse : Look around
+# - Tab : Lock / Unlock mouse cursor
+# - L : Toggle Day / Night lighting
+# - F : Toggle Flashlight
+# - Keys 1 to 9, 0, P : Quick Tour of All Rooms & Outside
+#   [1] Outside Front View (Yard, Driveway, Garage, Mailbox)
+#   [2] Ground Floor Entrance & Hallway
+#   [3] Ground Floor Living Room
+#   [4] Ground Floor Kitchen & Dining Room
+#   [5] Ground Floor Bathroom & Staircase
+#   [6] Second Floor Master Bedroom
+#   [7] Second Floor Bedroom 2
+#   [8] Second Floor Study / Office Room
+#   [9] Second Floor Balcony & Bathroom
+#   [0] Street & Distant Buildings
+#   [P] Bird's Eye Overhead Aerial View
+# - Esc : Exit
